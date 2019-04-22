@@ -1,0 +1,117 @@
+body {
+    background: linear-gradient(347deg, rgba(65,65,65,1) 0%, rgba(0,0,0,1) 100%);
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+header {
+    color: white;
+    text-align: center;
+    display: inline-block;
+    padding: -30px;
+
+}
+header a {
+    color: white;
+    text-decoration: none;
+    text-transform: uppercase;
+    text-align: center;
+    position: relative;
+    margin-top: 25%;
+    margin-bottom: -150%;
+}
+header .logo a {
+    background-image: url("images/restaurant.png");
+    background-size: 40px;
+    background-repeat: no-repeat;
+    display: inline-block;
+    text-indent: -999999px;
+    position: relative;
+    top: -11px;
+    height: 100px;
+    width: 50px;
+}
+
+/*
+section {
+    text-emphasis-color: none;
+    text-transform: uppercase;
+    text-align: center;
+    margin: 40px;
+}
+*/
+
+
+.container {
+    display: grid;
+    grid-template-columns:stretch;
+    grid-template-rows: stretch;
+  }
+
+nav {
+
+}
+
+h1 {
+    text-align: center;
+    text-decoration: none;
+    font-size: 65px;
+    color:black;
+    background: whitesmoke;
+    background-image: url("images/restaurant.png");
+    background-size: 200px;
+    background-position: center;
+    background-blend-mode: overlay;
+    padding: 50px;
+    border-radius: 10%;
+    margin-top: 0px;
+    margin-bottom: 50px;    
+
+}
+h3 {
+    color: white;
+    background: rgb(75,60,34);
+    background: linear-gradient(90deg, rgba(75,60,34,1) 0%, rgba(84,83,81,1) 35%, rgba(252,254,222,1) 100%);
+    text-align: center;
+    text-decoration: none;
+    
+
+}
+
+h5 {
+    color: white;
+    background: rgb(75,60,34);
+    background: linear-gradient(90deg, rgba(75,60,34,1) 0%, rgba(84,83,81,1) 35%, rgba(252,254,222,1) 100%);
+    text-align: center;
+    text-decoration: none;
+    display: grid;
+    border-radius: 2%;
+    grid-template-columns: auto;
+    grid-template-rows: auto;
+
+}
+
+ul {
+    margin:  0px;
+    padding: 0px; 
+    background: rgb(75,60,34);
+    background: linear-gradient(90deg, rgba(75,60,34,1) 0%, rgba(84,83,81,1) 35%, rgba(252,254,222,1) 100%);
+    list-style-type: none;
+    text-align: center;
+}
+
+li {
+    display: inline-block;
+    color: white;
+    border-radius: 3px;
+    padding: 5px;
+    margin-left: 0px;
+    font-size: 10px;
+
+}
+footer {
+    background: black;
+    padding: 5px;
+    color: white;
+}
